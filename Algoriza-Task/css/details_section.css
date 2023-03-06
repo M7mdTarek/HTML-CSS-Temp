@@ -1,0 +1,120 @@
+.details1{
+    position: absolute;
+    left: 288px;
+    top: 80.8px;
+    width: calc(100% - 274px);
+    height: 54.4px;
+    margin: 20px -14px;
+    display: flex;
+    align-items: center;
+}
+#s1{
+    font-size: x-large;
+    border-right: 1px gray solid;
+    padding: 0 14px;
+}
+.s{
+    padding: 0 8.4px;
+}
+#s2{
+    color: #7367f0;
+    font: caption;
+}
+#bp{
+    width: 38.4px;
+    height: 38.4px;
+    position: absolute;
+    right: 0px;
+    margin: 0 28px;
+    background-color: #7367f0;
+    border: none;
+    border-radius: 0.358rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bp:hover{
+    box-shadow: 0px 0px 7px 4px #7367f0;
+    -webkit-box-shadow: 0px 0px 7px 4px #7367f070;
+}
+.details2{
+    position: absolute;
+    left: 288px;
+    top: 135.2px;
+    margin: 40px 0 0;
+    height: 41.13px;
+    width: 288px;
+}
+.details3{
+    position: absolute;
+    right: 0px;
+    top: 125px;
+    margin: 40px 28px 0;
+    height: 41.13px;
+    width: calc(100% - 604px);
+    display: flex;
+    align-items: center;
+}
+#d3b1{
+    width: 122.36px;
+    height: 38px;
+    color: #7367f0;
+    border: 1px #7367f0 solid;
+    border-radius: 0.358rem;
+    background-color: inherit;
+    position: absolute;
+    right: 94px;
+    margin-right: 10px;
+}
+#d3b1:hover{
+    background-color: rgba(109, 100, 100, 0.14);
+}
+#d3b1 span{
+    width: 14px;
+    height: 11px;
+    margin-left: 14px;
+    font-size: larger;
+    color: #7367f0;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    display: inline-table;
+}
+#d3b2{
+    width: 47px;
+    height: 33.6px;
+    border-top-left-radius: 0.358rem;
+    border-bottom-left-radius: 0.358rem;
+    border: 1px #7367f0 solid;
+    background-color: inherit;
+    position: absolute;
+    right: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#d3b3{
+    width: 47px;
+    height: 33.6px;
+    border-top-right-radius: 0.358rem;
+    border-bottom-right-radius: 0.358rem;
+    border: 1px #7367f0 solid;
+    background-color: inherit;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home1{
+    margin: 0px 8.4px 0 14px;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    filter: invert(34%) sepia(87%) saturate(1239%) hue-rotate(225deg) brightness(101%) contrast(88%);
+}
+.menu{
+    filter: invert(34%) sepia(87%) saturate(1239%) hue-rotate(225deg) brightness(101%) contrast(88%);
+}
+.setting{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(103%) contrast(101%);
+}

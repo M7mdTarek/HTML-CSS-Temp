@@ -1,0 +1,101 @@
+.pieces{
+    width: calc(100% - 604px);
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 215px;
+    display: flex;
+    margin: 0 28px 0 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.snav{
+    width: 100%;
+    height: 48px;
+    border: none;
+    padding-left: 17.5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+    -webkit-box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+}
+.snav:focus{
+    border: none;
+    padding-left: 20px;
+    transition-property: padding;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.item{
+    background-color: white;
+    width: calc(95% / 3);
+    margin-top: 28px;
+    height: 366px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.item:hover{
+    box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+    -webkit-box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+
+}
+.itembw{
+    background-color: #f6f6f6;
+    height: 39.6px;
+    position: relative;
+    bottom: 0px;
+    min-width: 40%;
+    max-width: 100%;
+    color: #6e6b7b;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itembw:hover{
+    background-color: #c1c1c1;
+    cursor: pointer;
+}
+.itembv{
+    background-color: #7367f0;
+    height: 39.6px;
+    position: relative;
+    bottom: 0px;
+    min-width: 60%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+}
+.itembv:hover{
+    cursor: pointer;
+}
+.itemp1{
+    display: block;
+    position: relative;
+    font-size: smaller;
+}
+.itemp1:hover{
+    color: #7367f0;
+    cursor: pointer;
+}
+.itemp2{
+    display: block;
+    position: relative;
+    font-size: smaller;
+}
+.itemi{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 221.9px;
+    top: 0px;
+    /* margin-top: 33.75px; */
+}

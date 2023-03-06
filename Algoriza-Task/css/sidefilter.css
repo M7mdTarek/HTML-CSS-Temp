@@ -1,0 +1,118 @@
+.bar{
+   
+    height: fit-content;
+    width: 218px;
+    background-color: white;
+    position: absolute;
+    top: 215px;
+    left: 288px;
+    padding: 21px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+    -webkit-box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+}
+.inside-bar{
+    font-family: 'Montserrat',sans-serif; 
+}
+
+.multi-range{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+.span-range{
+   
+  
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 4%;
+    top: 15px;
+}
+.range-label{
+    
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 15%;
+    
+
+}
+.categories{
+    padding-top: 35px;
+}
+.categories1{
+    display: flex;
+    flex-direction: column;
+}
+.brands{
+    padding-top: 20px; 
+}
+.brands1{
+    display: flex;
+    flex-direction: column;
+
+}
+.label-cate{
+    
+    
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 15px;
+    left: 10%;
+}
+.label-brand{
+   
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 12%;
+    bottom: 16px;
+
+}
+p{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+}
+
+ .ratting{
+   
+    position: relative;
+    top: 64px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.checked{
+    color: orange;
+}
+.stars-1,.stars-2,.stars-3,.stars-4{
+    padding-top: 5px;
+    padding-bottom:5px;
+    color: #ddd;
+}
+
+.up{
+    margin-left: 95px;
+    position: absolute;
+    
+    color: #7367f0;
+    margin-top: -25px;
+}
+.number{
+   
+    position: absolute;
+    color: #4b4b4b9c;
+    left: 79%;
+    margin-top: -22px;
+
+}
+.search{
+    position:absolute;
+    width:864px;
+    height:48px;
+    outline:none
+}

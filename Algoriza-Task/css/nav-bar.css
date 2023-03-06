@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+    font-family: 'Montserrat',sans-serif; 
+    color: #6e6b7b;
+}
+body{
+    background-color: rgb(109 100 100 / 16%);
+}
+.pointer:hover{
+    cursor: pointer;
+}
+nav{
+    width: calc(100% - 320px);
+    height: 60px;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    right: 0px;
+    margin: 1.3rem 2rem 0;
+    display: flex;
+    box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+    -webkit-box-shadow: 0px 0px 7px 4px rgb(109 100 100 / 16%);
+}
+
+.nav1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+.nav2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+}
+.img1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.img2{
+    width: 22px;
+    height: 15px;
+    position: absolute;
+    right: 370px;
+}
+.b{
+    width: 30px;
+    height: 35px;
+    margin: 3px;  
+    background-color: inherit;
+    
+}
+.p1{
+    margin: 10px;
+    position: absolute;
+    top: 4px;
+    right: 40px;
+    font-weight: 600;
+}
+.p2{
+    position: absolute;
+    bottom: -4px;
+    right: 50px;
+    font-size: smaller;
+    opacity: 75%;
+}
+.spanactive{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #28c76f;
+    bottom: 10px;
+    border-radius: 50%;
+    border: solid 1px white;
+    right: 0px;
+}
+.b6{
+    position: absolute;
+    right: 165px;
+}
+.b7{
+    position: absolute;
+    right: 205px;
+}
+.b8{
+    position: absolute;
+    right: 245px;
+}
+.b9{
+    position: absolute;
+    right: 280px;
+}
+.b10{
+    position: absolute;
+    right: 310px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 14px;
+    
+    border: none;
+}
+.spanactive1{
+    background-color: #ea5455;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 157px;
+    top: 8px;
+    border-radius: 50%;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spanactive2{
+    background-color: #7367f0;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 198px;
+    top: 8px;
+    border-radius: 50%;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navicon{
+    width: 21px;
+    height: 21px;
+    opacity: 0.6;
+}
